@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: com.labs.lab5.App.Main
+Class-Path: xstream-1.4.9.jar
+

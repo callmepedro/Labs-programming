@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.labs.lab5.AppUtils.ConsoleManager</OriginalElement>
+  <nodes>
+    <node x="358.4102564102564" y="80.0">java.lang.Throwable</node>
+    <node x="1432.0" y="475.0">com.labs.lab5.Commands.AbstractCommand</node>
+    <node x="2392.0" y="605.0">com.labs.lab5.Commands.UpdateCommand</node>
+    <node x="1224.0" y="605.0">com.labs.lab5.Commands.ClearCommand</node>
+    <node x="516.0" y="605.0">com.labs.lab5.Commands.AddCommand</node>
+    <node x="860.0" y="680.0">com.labs.lab5.AppUtils.CommandReader</node>
+    <node x="858.4102564102564" y="160.0">com.labs.lab5.AppObjects.AstartesCategory</node>
+    <node x="1057.0" y="680.0">com.labs.lab5.AppUtils.CommandStruct</node>
+    <node x="736.0" y="80.0">java.lang.Enum</node>
+    <node x="1388.0" y="605.0">com.labs.lab5.Commands.FilterLessThanLoyalCommand</node>
+    <node x="312.0" y="605.0">com.labs.lab5.Commands.RemoveLastCommand</node>
+    <node x="552.0" y="320.0">com.labs.lab5.Exceptions.ExecuteScriptRecursionException</node>
+    <node x="229.0" y="680.0">com.labs.lab5.AppUtils.ScriptFileReader</node>
+    <node x="664.0" y="605.0">com.labs.lab5.Commands.CountGreaterThanCategoryCommand</node>
+    <node x="450.0" y="680.0">com.labs.lab5.AppUtils.ConsoleManager</node>
+    <node x="2564.0" y="605.0">com.labs.lab5.Commands.RemoveLowerCommand</node>
+    <node x="1632.0" y="680.0">com.labs.lab5.AppUtils.Repository</node>
+    <node x="980.0" y="605.0">com.labs.lab5.Commands.PrintDescendingCommand</node>
+    <node x="655.0" y="680.0">com.labs.lab5.AppUtils.CommandInvoker</node>
+    <node x="2776.0" y="605.0">com.labs.lab5.Commands.RemoveByIdCommand</node>
+    <node x="330.4102564102564" y="240.0">java.lang.RuntimeException</node>
+    <node x="316.0" y="320.0">com.labs.lab5.Exceptions.InvalidValueException</node>
+    <node x="0.0" y="680.0">com.labs.lab5.AppUtils.RepositoryBuilder</node>
+    <node x="358.4102564102564" y="160.0">java.lang.Exception</node>
+    <node x="518.0" y="0.0">java.io.Serializable</node>
+    <node x="2236.0" y="605.0">com.labs.lab5.Commands.ShowCommand</node>
+    <node x="1852.0" y="605.0">com.labs.lab5.Commands.ExecuteScriptCommand</node>
+    <node x="156.0" y="605.0">com.labs.lab5.Commands.HelpCommand</node>
+    <node x="0.0" y="320.0">com.labs.lab5.Exceptions.IncorrectCommandFormatException</node>
+    <node x="498.4102564102564" y="160.0">com.labs.lab5.AppUtils.CommandReaderMode</node>
+    <node x="1664.0" y="605.0">com.labs.lab5.Commands.RemoveAtCommand</node>
+    <node x="702.4102564102564" y="160.0">com.labs.lab5.AppObjects.MeleeWeapon</node>
+    <node x="1451.0" y="680.0">com.labs.lab5.AppObjects.Coordinates</node>
+    <node x="2080.0" y="605.0">com.labs.lab5.Commands.InfoCommand</node>
+    <node x="0.0" y="605.0">com.labs.lab5.Commands.SaveCommand</node>
+    <node x="786.0" y="0.0">java.lang.Comparable</node>
+    <node x="1805.0" y="680.0">com.labs.lab5.AppObjects.Chapter</node>
+    <node x="1464.0" y="395.0">com.labs.lab5.Commands.Command</node>
+    <node x="1254.0" y="680.0">com.labs.lab5.AppUtils.MarineCreator</node>
+    <node x="836.0" y="80.0">com.labs.lab5.AppObjects.SpaceMarine</node>
+    <node x="1954.0" y="680.0">com.labs.lab5.App.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.labs.lab5.AppUtils.CommandReaderMode" target="java.lang.Enum">
+      <point x="0.0" y="-15.0" />
+      <point x="590.4102564102564" y="135.0" />
+      <point x="749.3333333333334" y="135.0" />
+      <point x="-26.66666666666663" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.AppObjects.AstartesCategory" target="java.lang.Enum">
+      <point x="0.0" y="-15.0" />
+      <point x="946.4102564102564" y="135.0" />
+      <point x="802.6666666666666" y="135.0" />
+      <point x="26.66666666666663" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.Commands.AddCommand" target="com.labs.lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="580.0" y="555.0" />
+      <point x="1471.2" y="555.0" />
+      <point x="-44.799999999999955" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.Commands.RemoveLastCommand" target="com.labs.lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="404.0" y="545.0" />
+      <point x="1460.0" y="545.0" />
+      <point x="-56.0" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.Commands.RemoveAtCommand" target="com.labs.lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="1748.0" y="585.0" />
+      <point x="1527.2" y="585.0" />
+      <point x="11.200000000000045" y="15.0" />
+    </edge>
+    <edge source="java.lang.Throwable" target="java.io.Serializable">
+      <point x="0.0" y="-15.0" />
+      <point x="418.4102564102564" y="55.0" />
+      <point x="554.0" y="55.0" />
+      <point x="-36.0" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.AppObjects.SpaceMarine" target="java.lang.Comparable">
+      <point x="0.0" y="-15.0" />
+      <point x="904.0" y="55.0" />
+      <point x="882.0" y="55.0" />
+      <point x="32.0" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.Commands.UpdateCommand" target="com.labs.lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="2468.0" y="545.0" />
+      <point x="1572.0" y="545.0" />
+      <point x="56.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.RuntimeException" target="java.lang.Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.AppObjects.MeleeWeapon" target="java.lang.Enum">
+      <point x="0.0" y="-15.0" />
+      <point x="770.4102564102564" y="135.0" />
+      <point x="776.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.Exception" target="java.lang.Throwable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="-20.0" y="-15.0" />
+      <point x="756.0" y="55.0" />
+      <point x="626.0" y="55.0" />
+      <point x="36.0" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.Commands.FilterLessThanLoyalCommand" target="com.labs.lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.Commands.RemoveByIdCommand" target="com.labs.lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="2868.0" y="525.0" />
+      <point x="1594.3999999999999" y="525.0" />
+      <point x="78.39999999999986" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.Commands.PrintDescendingCommand" target="com.labs.lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="1092.0" y="575.0" />
+      <point x="1493.6" y="575.0" />
+      <point x="-22.40000000000009" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.Commands.ShowCommand" target="com.labs.lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="2304.0" y="555.0" />
+      <point x="1560.8" y="555.0" />
+      <point x="44.799999999999955" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.Commands.ExecuteScriptCommand" target="com.labs.lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="1956.0" y="575.0" />
+      <point x="1538.4" y="575.0" />
+      <point x="22.40000000000009" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.Commands.RemoveLowerCommand" target="com.labs.lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="2660.0" y="535.0" />
+      <point x="1583.2" y="535.0" />
+      <point x="67.20000000000005" y="15.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="20.0" y="-15.0" />
+      <point x="796.0" y="55.0" />
+      <point x="818.0" y="55.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.Commands.CountGreaterThanCategoryCommand" target="com.labs.lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="812.0" y="565.0" />
+      <point x="1482.4" y="565.0" />
+      <point x="-33.59999999999991" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.Commands.HelpCommand" target="com.labs.lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="224.0" y="535.0" />
+      <point x="1448.8" y="535.0" />
+      <point x="-67.20000000000005" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.Commands.SaveCommand" target="com.labs.lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="68.0" y="525.0" />
+      <point x="1437.6" y="525.0" />
+      <point x="-78.40000000000009" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.Exceptions.IncorrectCommandFormatException" target="java.lang.RuntimeException">
+      <point x="0.0" y="-15.0" />
+      <point x="148.0" y="295.0" />
+      <point x="359.7435897435897" y="295.0" />
+      <point x="-58.666666666666686" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.Exceptions.ExecuteScriptRecursionException" target="java.lang.RuntimeException">
+      <point x="0.0" y="-15.0" />
+      <point x="700.0" y="295.0" />
+      <point x="477.07692307692304" y="295.0" />
+      <point x="58.66666666666663" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.Exceptions.InvalidValueException" target="java.lang.RuntimeException">
+      <point x="0.0" y="-15.0" />
+      <point x="424.0" y="295.0" />
+      <point x="418.4102564102564" y="295.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.Commands.AbstractCommand" target="com.labs.lab5.Commands.Command">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.Commands.InfoCommand" target="com.labs.lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="2148.0" y="565.0" />
+      <point x="1549.6" y="565.0" />
+      <point x="33.59999999999991" y="15.0" />
+    </edge>
+    <edge source="com.labs.lab5.Commands.ClearCommand" target="com.labs.lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="1296.0" y="585.0" />
+      <point x="1504.8" y="585.0" />
+      <point x="-11.200000000000045" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3271812080536913" x="1480.0" y="355.0" />
+  <SelectedNodes>
+    <node>com.labs.lab5.AppUtils.ConsoleManager</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

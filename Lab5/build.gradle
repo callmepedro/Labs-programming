@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+mainClassName = 'com.labs.lab5.App.Main'
+
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+        attributes 'Class-Path': 'xstream-1.4.9.jar'
+    }
+}
+
+group 'com.labs'
+version '1.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    implementation group: 'com.thoughtworks.xstream', name: 'xstream', version: '1.4.9'
+}
+
+run{
+    standardInput = System.in
+}
+
+test {
+    useJUnitPlatform()
+}
+
+compileJava {
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
+}
